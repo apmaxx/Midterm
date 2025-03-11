@@ -10,7 +10,7 @@ def book_list():
             
             ]
 
-    return (books)
+    return  render_template ("amirsmidterm.html", books=books)
 
 if __name__ == '__main__':
     app.run(debug=True)
