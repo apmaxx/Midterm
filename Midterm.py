@@ -6,9 +6,8 @@ app = Flask(__name__)
 def book_list():
     books= ["The Hunger Games by Suzanne Collins", 
             "Monument 14 by Emmy Melbourne",
-            "Eighth Grade Bites by Heather Brewer",
-             ]
-    str(books)
+            "Eighth Grade Bites by Heather Brewer"]
+    
     return  render_template ("amirsmidterm.html", books=books)
     
 
