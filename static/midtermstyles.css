@@ -1,9 +1,20 @@
 body{
-    background-color: skyblue;
+    background-image: url(ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(159, 228, 255, 0.6);
+    background-blend-mode:soft-light;
 }
 
 h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Chewy", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
 }
 @keyframes slideIn{
     from {
