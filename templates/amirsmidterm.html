@@ -3,10 +3,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Amir's Midterm </title>
-    <link rel="stylesheet" href="{{ url_for('static', filename = 'activity3style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'midtermstyles.css') }}">
 </head>
 <body>
     <h1 style="text-align: center;"> My Favorite Books Growing Up</h1>
-         <p> {{books}}</p>
+         <li style="text-align: center;"> {{books}}</li>
+         <div class="image1">
+        <img src="/static/hungergames.jpg" height="400px" width="280px">
+        </div>
+        <div class="image2">
+        <img src="/static/monument14.jpg" height="400px" width="280px">
+        </div>
+        <div class="image3">
+        <img src="/static/eightbites.jpeg" height="400px" width="280px">
+        </div>
 </body>
 </html>
